@@ -1,0 +1,14 @@
+
+compile server 
+gcc -g -Wall kv-server-civetweb.c ./civetweb/libcivetweb.a -I./civetweb/include -I. -lpthread -lmysqlclient -o kvserver
+
+compile load_test
+gcc kv-client-raw.c -o load_test -lcurl -lpthread
+
+see disk utilisation
+watch -n 1 'iostat -xd nvme0n1 1 1 | awk "/nvme0n1/ {printf \"r/s=%s w/s=%s rkB/s=%s wkB/s=%s await=%s util=%s%%\\n\", \$2, \$8, \$4, \$9, \$10, \$NF}"'
+
+iostat -xd nvme0n1 1
+
+
+ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sqlpass';

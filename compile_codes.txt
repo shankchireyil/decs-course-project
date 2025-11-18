@@ -14,6 +14,6 @@ iostat -xd nvme0n1 1
 ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'sqlpass';
 
 
-curl -X POST http://localhost:8080/1 -d "hello world"
-curl -X GET http://localhost:8080/1 
-curl -X DELETE http://localhost:8080/1 
+curl -X POST http://localhost:8080/12 -d "hello world"
+curl -X GET http://localhost:8080/12 
+curl -X DELETE http://localhost:8080/12 

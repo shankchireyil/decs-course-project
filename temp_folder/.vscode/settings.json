@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "time.h": "c",
+        "pthread.h": "c",
+        "civetweb.h": "c"
+    }
+}
