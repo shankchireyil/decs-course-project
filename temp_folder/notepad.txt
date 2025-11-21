@@ -1,0 +1,12 @@
+Put All Load Setup
+
+Description : 50 % Put and 50 % del
+disk intensive workload
+
+server is pinned to cores 0-1 (2 cores)
+mysql server is pinned to cores 9-11 (3 cores)
+load generator is pinned to cores 2-8 ( 7 cores)
+
+duration = 320 secs
+#clients tested =  10 20 30 40 50 60 70 80 90 100 110
+

@@ -431,7 +431,7 @@ static int request_handler(struct mg_connection *conn)
             if (newline) *newline = '\0';
             
             if (db_put(key, value)) {
-                cache_put(key, value);  // Update cache
+                // cache_put(key, value);  // Update cache
                 mg_printf(conn, "HTTP/1.1 200 OK\r\n"
                                "Content-Type: text/plain\r\n"
                                "Content-Length: 19\r\n\r\n"
