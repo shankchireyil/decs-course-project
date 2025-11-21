@@ -1,0 +1,158 @@
+=== Load Test Results ===
+
+============================
+Test: workload=get-popular, threads=2, duration=30
+Timestamp: Fri Nov 21 09:23:50 PM IST 2025
+============================
+=== Raw Socket Key-Value Server Load Test ===
+Threads: 2
+Duration: 30 seconds
+Server: http://127.0.0.1:8080
+Connection: Raw TCP sockets with HTTP/1.1 keep-alive
+Workload: GET_POPULAR (popular keys 1-1000 - CPU/memory-bound)
+Key range: 1 to 1000000
+
+Starting load test...
+
+=== Raw Socket Load Test Results ===
+Total Requests:        2778827
+Successful Requests:   2778827 (100.00%)
+Failed Requests:       0
+Throughput:            92627.57 requests/second
+Average Latency:       0.02 ms
+Latency Percentiles:
+  Min:                 0.01 ms
+  50th percentile:     0.01 ms
+  95th percentile:     0.07 ms
+  99th percentile:     0.09 ms
+  Max:                 2.39 ms
+Average CPU Utilisation (cores 0+1): 46.9813 %
+Detected Disk: nvme0n1
+Average Write KB/s (nvme0n1): 210.341
+Average Disk Utilisation (nvme0n1): 0.44871 %
+
+
+============================
+Test: workload=get-popular, threads=4, duration=30
+Timestamp: Fri Nov 21 09:24:20 PM IST 2025
+============================
+=== Raw Socket Key-Value Server Load Test ===
+Threads: 4
+Duration: 30 seconds
+Server: http://127.0.0.1:8080
+Connection: Raw TCP sockets with HTTP/1.1 keep-alive
+Workload: GET_POPULAR (popular keys 1-1000 - CPU/memory-bound)
+Key range: 1 to 1000000
+
+Starting load test...
+
+=== Raw Socket Load Test Results ===
+Total Requests:        3975780
+Successful Requests:   3975780 (100.00%)
+Failed Requests:       0
+Throughput:            132526.00 requests/second
+Average Latency:       0.03 ms
+Latency Percentiles:
+  Min:                 0.01 ms
+  50th percentile:     0.02 ms
+  95th percentile:     0.09 ms
+  99th percentile:     0.12 ms
+  Max:                 2.42 ms
+Average CPU Utilisation (cores 0+1): 82.902 %
+Detected Disk: nvme0n1
+Average Write KB/s (nvme0n1): 208.819
+Average Disk Utilisation (nvme0n1): 0.570645 %
+
+
+============================
+Test: workload=get-popular, threads=6, duration=30
+Timestamp: Fri Nov 21 09:24:51 PM IST 2025
+============================
+=== Raw Socket Key-Value Server Load Test ===
+Threads: 6
+Duration: 30 seconds
+Server: http://127.0.0.1:8080
+Connection: Raw TCP sockets with HTTP/1.1 keep-alive
+Workload: GET_POPULAR (popular keys 1-1000 - CPU/memory-bound)
+Key range: 1 to 1000000
+
+Starting load test...
+
+=== Raw Socket Load Test Results ===
+Total Requests:        4775370
+Successful Requests:   4775370 (100.00%)
+Failed Requests:       0
+Throughput:            159179.00 requests/second
+Average Latency:       0.04 ms
+Latency Percentiles:
+  Min:                 0.01 ms
+  50th percentile:     0.03 ms
+  95th percentile:     0.11 ms
+  99th percentile:     0.15 ms
+  Max:                 1.33 ms
+Average CPU Utilisation (cores 0+1): 95.295 %
+Detected Disk: nvme0n1
+Average Write KB/s (nvme0n1): 249.878
+Average Disk Utilisation (nvme0n1): 0.537742 %
+
+
+============================
+Test: workload=get-popular, threads=8, duration=30
+Timestamp: Fri Nov 21 09:25:21 PM IST 2025
+============================
+=== Raw Socket Key-Value Server Load Test ===
+Threads: 8
+Duration: 30 seconds
+Server: http://127.0.0.1:8080
+Connection: Raw TCP sockets with HTTP/1.1 keep-alive
+Workload: GET_POPULAR (popular keys 1-1000 - CPU/memory-bound)
+Key range: 1 to 1000000
+
+Starting load test...
+
+=== Raw Socket Load Test Results ===
+Total Requests:        5047377
+Successful Requests:   5047377 (100.00%)
+Failed Requests:       0
+Throughput:            168245.90 requests/second
+Average Latency:       0.05 ms
+Latency Percentiles:
+  Min:                 0.01 ms
+  50th percentile:     0.04 ms
+  95th percentile:     0.13 ms
+  99th percentile:     0.18 ms
+  Max:                 1.52 ms
+Average CPU Utilisation (cores 0+1): 98.851 %
+Detected Disk: nvme0n1
+Average Write KB/s (nvme0n1): 212.316
+Average Disk Utilisation (nvme0n1): 0.427742 %
+
+
+============================
+Test: workload=get-popular, threads=10, duration=30
+Timestamp: Fri Nov 21 09:25:51 PM IST 2025
+============================
+=== Raw Socket Key-Value Server Load Test ===
+Threads: 10
+Duration: 30 seconds
+Server: http://127.0.0.1:8080
+Connection: Raw TCP sockets with HTTP/1.1 keep-alive
+Workload: GET_POPULAR (popular keys 1-1000 - CPU/memory-bound)
+Key range: 1 to 1000000
+
+Starting load test...
+
+Stopping load test...
+
+=== Raw Socket Load Test Results ===
+Total Requests:        1072248
+Successful Requests:   1072248 (100.00%)
+Failed Requests:       0
+Throughput:            35741.60 requests/second
+Average Latency:       0.06 ms
+Latency Percentiles:
+  Min:                 0.01 ms
+  50th percentile:     0.05 ms
+  95th percentile:     0.15 ms
+  99th percentile:     0.21 ms
+  Max:                 1.15 ms

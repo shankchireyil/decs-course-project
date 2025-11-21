@@ -1,0 +1,29 @@
+Linux 6.14.0-35-generic (shaan-laptop) 	11/21/2025 	_x86_64_	(12 CPU)
+
+09:25:51 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+09:25:52 PM    0   23.00    0.00   62.00    0.00    0.00   14.00    0.00    0.00    0.00    1.00
+09:25:52 PM    1   23.23    0.00   60.61    0.00    0.00   16.16    0.00    0.00    0.00    0.00
+
+09:25:52 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+09:25:53 PM    0   23.23    0.00   59.60    0.00    0.00   17.17    0.00    0.00    0.00    0.00
+09:25:53 PM    1   22.00    0.00   62.00    0.00    0.00   16.00    0.00    0.00    0.00    0.00
+
+09:25:53 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+09:25:54 PM    0   26.00    0.00   59.00    0.00    0.00   15.00    0.00    0.00    0.00    0.00
+09:25:54 PM    1   24.00    0.00   60.00    0.00    0.00   15.00    0.00    0.00    0.00    1.00
+
+09:25:54 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+09:25:55 PM    0   23.23    0.00   60.61    0.00    0.00   15.15    0.00    0.00    0.00    1.01
+09:25:55 PM    1   25.25    0.00   58.59    0.00    0.00   16.16    0.00    0.00    0.00    0.00
+
+09:25:55 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+09:25:56 PM    0   22.00    0.00   62.00    0.00    0.00   16.00    0.00    0.00    0.00    0.00
+09:25:56 PM    1   24.00    0.00   62.00    0.00    0.00   14.00    0.00    0.00    0.00    0.00
+
+09:25:56 PM  CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+09:25:57 PM    0   25.25    0.00   60.61    0.00    0.00   14.14    0.00    0.00    0.00    0.00
+09:25:57 PM    1   24.49    0.00   63.27    0.00    0.00   12.24    0.00    0.00    0.00    0.00
+
+Average:     CPU    %usr   %nice    %sys %iowait    %irq   %soft  %steal  %guest  %gnice   %idle
+Average:       0   23.79    0.00   60.64    0.00    0.00   15.24    0.00    0.00    0.00    0.34
+Average:       1   23.83    0.00   61.07    0.00    0.00   14.93    0.00    0.00    0.00    0.17
