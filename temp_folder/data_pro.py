@@ -58,7 +58,7 @@ def plot_metric(threads, values, y_name, title,metric_name):
     plt.grid(True)
     plt.xticks(threads)
 
-    plt.savefig(f"./results_put_all/put_all_{metric_name}.png", dpi=200)
+    plt.savefig(f"./results_get_popular/get_popular_{metric_name}.png", dpi=200)
     # plt.show()
 
 

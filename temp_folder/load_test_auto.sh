@@ -72,9 +72,10 @@ run_test() {
 
 ############ RUN TESTS ############
 # for t in 2 4 6 8 10 12 14 16 18 20
-for t in  70
+# for t in  2 4 6 8 10 12 14 16 18 20
+for t in 2 4 6 8 10 12 14 16 18 20
 do
-    run_test "$t" 320 "put-all"
+    run_test "$t" 320 "get-popular"
 done
 
 echo "All tests done. Check: $OUTPUT_FILE"
