@@ -56,9 +56,9 @@ def plot_metric(threads, values, y_name, title,metric_name):
     plt.ylabel(y_name)
     plt.title(title)
     plt.grid(True)
-    plt.xticks(threads)
+    # plt.xticks(threads)
 
-    plt.savefig(f"./results_get_popular/get_popular_{metric_name}.png", dpi=200)
+    plt.savefig(f"./results_put_all/put_all_{metric_name}.png", dpi=200)
     # plt.show()
 
 
@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
     # Loop through metrics & auto plot
     metrics_to_plot = ["throughput", "avg_latency", "cpu_util","disk_write_kb","disk_util"]
-    titles = ["Throughput","Latency", "CPU Utilization", "Disk utilization","Disk Utilization"]
+    titles = ["Throughput","Latency", "CPU Utilization", "Disk Utilization","Disk Utilization"]
     titles = [f"Put-All {x}" for x in titles]
     y_axis_names = ["Throughput (req/sec)", "Latency (msec)", "CPU Utilization (%)",
               "Disk Utilization (wKB/s)","Disk Utilization (%)"]
